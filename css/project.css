@@ -1,0 +1,144 @@
+
+/**Container and Wrapper which houses the gallery to be responsive.**/
+
+.galleryContainer {
+  margin-left: 100px;
+  align-items: center;
+}
+
+#wrapper {
+  display: block;
+  background-color: #000;
+  margin: 100px;
+}
+
+
+/**ALBUM STYLES**/
+
+#gallery a {
+  text-decoration: none;
+}
+
+#gallery .item {	
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  float: left;
+}
+
+#gallery .item a {
+  overflow: hidden;
+}
+
+#gallery .item a img {
+  width: 100%;
+  height: 300px;
+  align-self: center;
+}
+
+
+/**LIGHTBOX START**/
+
+.lightbox {
+  opacity: 0;
+  /**HIDE THE LIGHT BOX BY SETTING OPACITY TO ZERO**/
+  /**STYLING THE LIGHTBOX**/
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  color: #000;
+  background-color: #000;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+.lightbox:target {
+  /**SHOWS THE LIGHT BOX WHEN AN IMAGE IS TARGETED**/
+  opacity: 1;
+  outline: none;
+  top: 0;
+}
+
+.lightbox .box {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  min-width: 45%;
+  margin: 2% auto;
+  padding: 10px 20px 10px 20px;
+  background-color: #FFF;
+  box-shadow: 0px 1px 26px -3px #777777;
+}
+
+.lightbox .title {
+  margin: 0;
+  padding: 0 0 10px 0px;
+  border-bottom: 1px #ccc solid;
+  font-size: 22px;
+}
+
+.lightbox .content {
+  display: block;
+  position: relative;
+}
+
+.lightbox .close {
+  display: block;
+  float: right;
+  text-decoration: none;
+  font-size: 40px;
+  color: #858585;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+.clear {
+  display: block;
+  clear: both;
+}
+
+
+/**LIGHTBOX END**/
+
+@media only screen and (min-width: 481px) {
+  .galleryContainer {
+    width: 90.675%;
+    padding-left: 1.1625%;
+    padding-right: 1.1625%;
+  }
+  #wrapper {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .galleryContainer {
+    width: 88.2%;
+    max-width: 1232px;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+    margin: auto;
+  }
+  #wrapper {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+  }
+}
