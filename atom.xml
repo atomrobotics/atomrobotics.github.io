@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="0.91">
+  <channel>
+	<title>Atom Robotics</title>
+	<link>"https://atomrobotics.github.io"</link>
+	<description>A platform for young aspiring minds to prospering robotics located in VIT Chennai, India.</description>
+	<language>en-us</language>
+	<image>
+	<title>Atom Robotics</title>
+	<url>https://atomrobotics.github.io/img/cover_page.jpeg</url>
+	<link>"https://atomrobotics.github.io"</link>
+	<width>90</width>
+	<height>35</height>
+	</image>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/achievements.html</link>
+		<description>Our first attempt outside Tamil nadu. Ended 5th out of 50+ teams, an event held in BITS Pilani, Hyderabad Campus. It was more of excitement and experience than just a competition.</description>
+	</item>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/gallery.html</link>
+		<description>GALLERY</description>
+	</item>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/teams.html</link>
+		<description>Our Core Team</description>
+	</item>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/projects.html</link>
+		<description>Projects</description>
+	</item>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/contact.html</link>
+		<description>Want to be a part of our journey? Take the first step by filling the form below.</description>
+	</item>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/index.html#aboutus</link>
+		<description>We, Team ATOM of VIT Chennai, are an official team under VITC Robotics Club, comprising 40+ passionate students from multiple diverse branches of study, unified by their common, unconditional love for Robotics. As a team, we focus on acting as a platform for young, aspiring minds to prosper in said field.</description>
+	</item>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/index.html#aboutrc</link>
+		<description>The Robotics Club of VITCC consists of 60 young, tenacious minds, under the adept tutelage of the faculty head, Dr. Arockia Selvakumar. The club came to being in the year 2011 and has since then strived to steer its members towards pursuing a career in Robotics, by imparting pertinent knowledge and expertise to them.</description>
+	</item>
+
+	<item>
+		<title>Atom Robotics</title>
+		<link>https://atomrobotics.github.io/index.html#aboutvit</link>
+		<description>Vellore Institute of Technology – Chennai Campus is a private higher education institute deemed to be university, located in Chennai, Tamil Nadu, India. With globally-recognized teaching methods, a fulfilling learning experience and brilliantly structured courses, VIT is considered the No. 1 Private University for Innovation.</description>
+	</item>
+
+  </channel>
+</rss>
