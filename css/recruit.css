@@ -92,6 +92,7 @@
       "time detail";
   }
 }
+
 .sec .events ul li .time {
   grid-area: time;
   position: relative;
@@ -177,7 +178,7 @@
   background-color: #eea412;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 450px) {
   .txt1{
     font-size: 30px;
   }
@@ -185,7 +186,9 @@
     font-size: 40px;
   }
   .leftBox img{
-    margin-left: 0px;
+    width: 120%;
+    margin-left: -32px;
+    margin-top: -50px;
   }
 }
 
