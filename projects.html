@@ -88,298 +88,203 @@
 
 
 
-<br><br><br><h1 class="txt wow zoomInDown" data-wow-duration="1s" data-wow-delay="300ms">PROJECTS</h1>
-<div class="wrap">
-<div class="tile"> 
-  <img src='img/cad4.jpeg'/>
-  <div class="text">
-  <h1>DRONE</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">Drone made with a target to make it autonomous, basically using it for autonomous tracking and surveillance in particular. Currently a very high speed and maneuver drone made with PIXHAWK controller. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
+<div class="con">
+        <h1 class="white">PROJECTS</h1>
+        <section id="about">
+            <div class="container">
 
+                <hr>
 
-<div class="tile"> 
-  <img src='img/lifo.jpeg'/>
-  <div class="text">
-  <h1>LINE FOLLOWER 1</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">Built a line follower robot using DC geared motors and 3 IR sensors. Won 5 competitions with this robot</p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-  
-  <div class="tile"> 
-  <img src='img/lifo2.jpeg'/>
-  <div class="text">
-  <h1>LINE FOLLOWER 2</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">A robot with advanced PID algorithms and more than 10 competitions with it in the past one year. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-</div>
-  
-  
-</div>
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">ROS BASED AUTONOMOUS DRONE SIMULATION</h2>
+                    <p>Developed a ROSpy based control system for a quadcopter to transverse to a set of GPS setpoint autonomously. The Control System has two modules namely the Altitude controller and the position controller, Altitude controller stabilizes the drone at the zero error Roll, Yaw, Pitch angles using a PID based controller, the position controller takes in the target GPS coordinate has setpoint values and calculates the roll yaw pitch angles to successfully move to the setpoint coordinates. these controllers work in synchronization to autonomously fly the drone from one coordinate to another</p>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <iframe class="im" src="https://www.youtube.com/embed/Hrdhqe0wyS8?controls=0" frameborder="0"> </iframe>
+                  </div>
+                </div>
 
-<div class="wrap">
-<div class="tile"> 
-  <img src='img/line.jpeg'/>
-  <div class="text">
-  <h1>LINE FOLLOWER 3</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">A BEAST. Advanced line follower made with a combination of 16 IR Sensors and Cytron motor driver, Polulo motors and high traction wheels. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
+                <hr>
 
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">3D MAPPING OF MOBILE ROBOT</h2>
+                    <p>Implemented 3D mapping using Kinect and RGB-D Camera sensors on ground vehicle. A ground robot was added with the necessary sensors mentioned above and implemented mapping it with an indoor environment. Real time appearance-based mapping (RTAB-Map) was used to make the 3D map launched in gazebo environment. Then, BUG-2 algorithm was used to move the robot in the environment, reading the sensor data and ultimaately mapping. And also RViz was used to visualize the 2D ma, created using Rtab-map.</p>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <iframe class="im" src="https://www.youtube.com/embed/CnMpqUv7ask?controls=0" frameborder="0"> </iframe>
+                  </div>
+                </div>
 
-<div class="tile"> 
-  <img src='img/linemaze.jpeg'/>
-  <div class="text">
-  <h1>LINE MAZE</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text"> A robot made particularly to find the shortest path and traverse accordingly using BUG0 algorithm.</p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-  
-  <div class="tile"> 
-  <img src='img/bot.jpeg'/>
-  <div class="text">
-  <h1>ROBORACE 1</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text"> A wired robot made simply with DC geared motors and LIPO batery alongside a custom made chassis.</p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-</div>
-  
-  
-</div>
+                <hr>
 
-<div class="wrap">
-<div class="tile"> 
-  <img src='img/bot2.jpeg'/>
-  <div class="text">
-  <h1>ROBORACE 2</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text"> A wireless robot made with DC geared motors, arduino, drivers and a LIPO battery.</p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">VESTIUM- SMART ROBOTIC CLOSET</h2>
+                    <p>Designed a 80*80 smart robotic furniture, which maximizes small spaces whiCh will be poised to transform urban living. It is packed with plenty of space, hiding the bed when not in use, and allows to optimize space, at touch of a button. It can be used as an entertainment center, home office, bedroomm, storage all in one closet. At present in prototyping phase, with an optimism to make it a startup product.</p>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    
+                    <div class="wrap">
+                      <div id="arrow-left" class="arrow"></div>
+                      <div id="slider">
+                        <div class="slide">
+                          <div class="slide-content">
+                            <img src="img/vestium.jpg" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <div class="slide-content">
+                            <img src="img/vestium1.JPG" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slide">
+                          <div class="slide-content">
+                            <img src="img/vestium2.jpeg" class="sizee">
+                          </div>
+                        </div>
+                      </div>
+                      <div id="arrow-right" class="arrow"></div>
+                    </div>
+                  </div>
 
+                </div>
+                <hr>
 
-<div class="tile"> 
-  <img src='img/animalnet.jpeg'/>
-  <div class="text">
-  <h1>ANIMAL NET</h1>
-  <h2 class="animate-text">COMPUTER VISION</h2>
-  <p class="animate-text">Developed a Web App, with a customized trained Model using transfer learning and data augmentation, consisting of 30+ animal types and 30+ breeds of the animal types, with an overall IOU of 85%. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-  
-  <div class="tile"> 
-  <img src='img/xray.jpeg'/>
-  <div class="text">
-  <h1>XRAY DETECTION</h1>
-  <h2 class="animate-text">COMPUTER VISION</h2>
-  <p class="animate-text">Built a deep learning model, detecting 14 different chest related diseases using the dataset accrued by NIH consisting of more than one lakh images. Was trained with the help MobileNet pre-trained models and Data-Augmentation. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-</div>
-  
-  
-</div>
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">AUTONOMOUS LINE FOLLOWER</h2>
+                    <p>Advanced PID based line follower equipped with the ability to find the shortest path using BUG2 algorithm alongside the PID algorithm. The controller's PID algorithm restores the measured speed to the desired speed with minimal delay and overshoot. Bug2 algorithm employs greedy algorithm and it will take the first path that looks better. <br>Algorithm: PID and BUG2 algorithm.<br>Competitions Won: 17 (from 01/2019 - 03/2020)<br>Components used: N20 Micro Geared Motors, MDD10A, Arduino Nano, 16 sensor array, 3D printed Chassis[PLA] & Silica wheels.<br></p>
+                  </div>
 
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <iframe class="im" src="https://www.youtube.com/embed/fPItqrno_Q4?controls=0" frameborder="0"> </iframe>
+                  </div>
+                </div>
 
-<div class="wrap">
-<div class="tile"> 
-  <img src='img/av.jpeg'/>
-  <div class="text">
-  <h1>NN IN CFD</h1>
-  <h2 class="animate-text">COMPUTER VISION</h2>
-  <p class="animate-text">A Neural Network model for prediction velocity distribution around the circular cylinder using pressure contours. ANSYS Fluent simulations of flow around a cylinder were carried out to establish a dataset to establish the mapping relationship between pressure and velocity.The network layers can process the pressure information by features extraction to obtain the velocity distribution. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
+                <hr>
 
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">DRONE NAVIGATION USING BEHAVIORAL</h2>
+                    <p>A behavior tree was used to specify the mission plan for the drone in an AEROSTACK framework. AEROSTACK helps developers design and build control architecture of aerial robot systems, integrating multiple heterogenous computational solutions. There are 2 important functions here: the behavior tree editor is used to set the missionplan using available behaviors and hierarchies, and the interpreter executes th ebehaviors set in the editor. The four behaviorals used in this video are Take-off, Follow path, Rotate and Land.</p>
+                  </div>
 
-<div class="tile"> 
-  <img src='img/retinaloct.jpeg'/>
-  <div class="text">
-  <h1>RETINAL OCT DETECTION</h1>
-  <h2 class="animate-text">COMPUTER VISION</h2>
-  <p class="animate-text">Collected high resolution images of Retina images taken from variety of imaging conditions. Graded the severity of disease with the help of clinician and applied Convolutional NN on the images, thus developed a model with IOU of 85% for Retinal OCT Detection. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-  
-  <div class="tile"> 
-  <img src='img/cad5.jpeg'/>
-  <div class="text">
-  <h1>AUTONOMOUS STAIR CLIMBER</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">Autonomous Stair Climbing robot. Designed to carry packages from one place to another without dropping the package using linear actuators and gyroscope. Path determination has been achieved using Computer Vision and ROS. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-</div>
-  
-  
-</div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <iframe class="im" src="https://www.youtube.com/embed/BvRMGzqvTik?controls=0" frameborder="0"> </iframe>
+                  </div>
+                </div>
 
+                <hr>
 
-<div class="wrap">
-<div class="tile"> 
-  <img src='img/retina.jpg'/>
-  <div class="text">
-  <h1>RETINOPATHY DETECTION</h1>
-  <h2 class="animate-text">COMPUTER VISION</h2>
-  <p class="animate-text">Collected high resolution images of Retina images taken from variety of imaging conditions. Graded the severity of disease with the help of clinician and applied Convolutional NN on the images, thus developed a model with IOU of 90% for Diabetic Retinopathy Detection. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">MINI ROBOTS</h2>
+                    <p>Intelligent Ground Vehicles, Can-Sats, Law Following Robot, Obstacle Racer, Autonomous Self Driving Robot, Robo-Soccer, Maze Runner, Sumo Robot, Drag Racer, BattleBots, RC Nitro Cars, Agricultural Robots, Water Rocket, etc were made in my journey of being the Co-Founder of the student funded team named ATOM Robotics.</p>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    
+                    <div class="wrap">
+                      <div id="arrow-lefta" class="arrow"></div>
+                      <div id="slider">
+                        <div class="slidea">
+                          <div class="slide-content">
+                            <img src="img/lifo.jpg" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slidea">
+                          <div class="slide-content">
+                            <img src="img/breach.jpeg" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slidea">
+                          <div class="slide-content">
+                            <img src="img/bot.jpeg" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slidea">
+                          <div class="slide-content">
+                            <img src="img/bot2.jpeg" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slidea">
+                          <div class="slide-content">
+                            <img src="img/lifo2.jpeg" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slidea">
+                          <div class="slide-content">
+                            <img src="img/robowar.jpeg" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slidea">
+                          <div class="slide-content">
+                            <img src="img/drone.jpeg" class="sizee">
+                          </div>
+                        </div>
+                      </div>
+                      <div id="arrow-righta" class="arrow"></div>
+                    </div>
+                  </div>
+                </div>
 
+                <hr>
 
-<div class="tile"> 
-  <img src='img/accident.jpg'/>
-  <div class="text">
-  <h1>ACCIDENT ALARMING SYSTEM</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">Designed a Smart Alarm System, where the sensor will detect any forthcoming objects and activates the alarm with the user being able to enter the password to deactivate the system or deactivate via mobile device via GSM connecting desired mobile number. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-  
-  <div class="tile"> 
-  <img src='img/tennis.jpeg'/>
-  <div class="text">
-  <h1>TENNIS BALL TRACKING</h1>
-  <h2 class="animate-text">COMPUTER VISION</h2>
-  <p class="animate-text"> Collected numerous amount of images from kaggle and trained using MobileNet and made tracking the custom trained tennis ball model possible. Higly accurate tracking was observed.</p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-</div>
-  
-  
-</div>
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">GMapping-based SLAM for AGV</h2>
+                    <p>Implementation of Gmapping using 2D lidar using turtle bot in ROS in Gazebo environment to construct a 2D map using RViz in an indoor environment. Also, an Adaptive Monte Carlo localization (AMCL) based navigation stack was used to move the ground robot to a navigation goal</p>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <iframe class="im" src="https://www.youtube.com/embed/ey4RYOT3EaY?controls=0" frameborder="0"></iframe>
+                  </div>
+                </div>           
 
+                <hr>
 
-<div class="wrap">
-<div class="tile"> 
-  <img src='img/vestium.jpg'/>
-  <div class="text">
-  <h1>"VESTIUM"- ROBOTIC CLOSET</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">Designed and implemented an 80” * 80” robotic furniture, which maximizes small spaces which is poised to transform urban living. It is packed with plenty of space, hiding the bed when not in use, and allows to optimize space, at touch of a button. </p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">BIRD SPECIES CLASSIFICATION</h2>
+                    <p>Developed a Web App, with a customized trained Model using transfer learning and data augmentation, consisting of 100+ bird species. VGG16 pre-trained model was freezed and used alongside augmented training and validating images to increase the accuracy by keeping the computational eficiency in mind. An overall IOU of 96.5% was obtained when evaljuation of the trained model was computed with individual prediction going upto 98.73%.</p><br><br><br>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    
+                    <div class="wrap">
+                      <div id="arrow-leftb" class="arrow"></div>
+                      <div id="slider">
+                        <div class="slideb">
+                          <div class="slide-content">
+                            <img src="img/albatross.JPG" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slideb">
+                          <div class="slide-content">
+                            <img src="img/antbird.JPG" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slideb">
+                          <div class="slide-content">
+                            <img src="img/cv_g1.png" class="sizee">
+                          </div>
+                        </div>
+                        <div class="slideb">
+                          <div class="slide-content">
+                            <img src="img/cv_g2.png" class="sizee">
+                          </div>
+                        </div>
 
+                      </div>
+                      <div id="arrow-rightb" class="arrow"></div>
+                    </div>
+                  </div>
+                </div>
 
-<div class="tile"> 
-  <img src='img/fire.jpeg'/>
-  <div class="text">
-  <h1>FOREST FIRE DETECTOR</h1>
-  <h2 class="animate-text">COMPUTER VISION</h2>
-  <p class="animate-text">Made a custom model with forest fire and classified based on the intensity. Was trained with the help of InceptionNet and data augmentation for better accuracy and to save processing speed.</p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-  
-  <div class="tile"> 
-  <img src='img/kuka.jpeg'/>
-  <div class="text">
-  <h1>ROS FOR KUKA KR 530</h1>
-  <h2 class="animate-text">ROBOTICS</h2>
-  <p class="animate-text">ROS industrial Package for kuka KR 530 developed using moveit. Inverse kinematics was implemented for a 6 DOF manipulator with anti-collision algorithms.</p>
-<div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  </div>
- </div>
-</div>
-  
-  
-</div>
+                <hr>
 
+              </div>
+        </section>
+    </div>
 
 
 
@@ -406,7 +311,7 @@
         </ul>
       </div>
 
-        <a href="#" class="scroll-up"><i class="fa fa-arrow-up fa-3x"></i></a>
+        <a href="#" class="scroll-up"><i class="fa fa-arrow-up fa-2x"></i></a>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
@@ -423,7 +328,9 @@
   <script src="js/jquery.knob.min.js"></script> 
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/custom.js"></script>
-   <script src="js/project.js"></script>
+  <script src="js/project.js"></script>
+  <script src="js/pro.js"></script>  
+
 
 </body>
 </html>
