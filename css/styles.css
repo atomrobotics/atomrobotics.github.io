@@ -738,7 +738,7 @@ a img.aligncenter {
     position: relative;
 }
 
-.dis{
+.bottomdist{
   margin-bottom: -10px;
 }
 
@@ -1582,3 +1582,4 @@ input {
     line-height: normal;
     margin: 0;
 }
+
