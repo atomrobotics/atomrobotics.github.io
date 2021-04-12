@@ -738,6 +738,10 @@ a img.aligncenter {
     position: relative;
 }
 
+.dis{
+  margin-bottom: -10px;
+}
+
 .post-media img {
     width: 100%;
 }
