@@ -2,6 +2,14 @@ p{
     font-size: 17px;
 }
 
+h3{
+  color: #fff;
+}
+
+.wh{
+  color: #fff;
+}
+
 #about {
   padding: 60px 0;
 }
