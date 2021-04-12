@@ -136,6 +136,15 @@ h3{
     font-size: 32px;
 }
 
+.alig{
+  text-align: center;
+  color: #fff;
+  font-size: 75px;
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
 .mySlides {
   display: none;
 }
@@ -477,6 +486,7 @@ h3{
 .edit{
   text-align: center;
   font-size: 30px;
+  color: #eea412;
 }
 
 @media (max-width: 574px) {
