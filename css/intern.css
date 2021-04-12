@@ -3,6 +3,10 @@ p{
     color: #fff;
 }
 
+h3{
+  color: #fff;
+}
+
 .intern{
   margin: 450px;
   margin-top: 0px;
@@ -470,6 +474,11 @@ p{
   position: relative;
 }
 
+.edit{
+  text-align: center;
+  font-size: 30px;
+}
+
 @media (max-width: 574px) {
 
   p{
@@ -520,12 +529,6 @@ p{
 .center{
 	margin-top: 50px;
 	margin-left: 35%;
-}
-
-.edit{
-	margin-left: 18%;
-	margin-bottom: 20px;
-	font-size: 30px;
 }
 
 .centr{
@@ -592,3 +595,4 @@ p{
   right: 0;
   margin-right: 30px;
 }
+
