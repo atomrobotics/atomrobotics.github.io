@@ -12,11 +12,19 @@
   padding: 0 20px;
 }
 
+.sizee{
+  font-size: 20px;
+}
+
 .gallery-section h1
 {
   text-align: center;
   text-transform: uppercase;
   color: white;
+}
+
+.white{
+  font-size: 60px;
 }
 
 .border
