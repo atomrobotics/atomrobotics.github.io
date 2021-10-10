@@ -22,6 +22,10 @@ h3{
   color: #fff;
 }
 
+.clr{
+  color: #fff;
+}
+
 #about .about-container .title {
   color: #fff;
   font-weight: 700;
@@ -112,6 +116,11 @@ h3{
 .im{
     height: 300px;
     width: 500px;
+}
+
+.imgsiz{
+  height: 100px;
+  width: 300px;
 }
 
 .res{

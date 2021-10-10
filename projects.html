@@ -90,11 +90,39 @@
 
                 <div class="row about-container">
                   <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">3D STEREO OBSTACLE AVOIDANCE</h2>
+                    <p>
+                      Obstacle avoidance using pixhawk flight controller and stereo camera setup. Extrated the point clouds and used reconstructed polar histogram using it. Histograms from previous time steps where used to percieve the environment better. Cost function based on orientation and the smoothing term where used to assign weights to the field of view. Based on these navigation avoiding obstacles was established.
+                    </p>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <iframe class="im" src="https://www.youtube.com/embed/9fVvcsmRk28?controls=0&rel=0&html5=1&vq=hd720&modestbranding=1" frameborder="0"> </iframe>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
+                    <h2 class="bl">VISUAL ODOMETRY</h2>
+                    <p>
+                      Development of python package to reconstruct indoor and outdoor environments with diverse texture contrasts using Oriented FAST and Rotated Brief feature detector, FLANN based matchers and RANSAC for outlier removal; Optical flow and PnP (DLT and Levenberg) for estimating the pose of robot.
+                    </p>
+                  </div>
+                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                    <iframe class="im" src="https://www.youtube.com/embed/VlIvdJebpxQ?controls=0&rel=0&html5=1&vq=hd720&modestbranding=1" frameborder="0"> </iframe>
+                  </div>
+                </div>
+
+                <hr>
+
+                <div class="row about-container">
+                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
                     <h2 class="bl">ROS BASED AUTONOMOUS DRONE SIMULATION</h2>
                     <p>Developed a ROSpy based control system for a quadcopter to transverse to a set of GPS setpoint autonomously. The Control System has two modules namely the Altitude controller and the position controller, Altitude controller stabilizes the drone at the zero error Roll, Yaw, Pitch angles using a PID based controller, the position controller takes in the target GPS coordinate has setpoint values and calculates the roll yaw pitch angles to successfully move to the setpoint coordinates. these controllers work in synchronization to autonomously fly the drone from one coordinate to another</p>
                   </div>
                   <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                    <iframe class="im" src="https://www.youtube.com/embed/Hrdhqe0wyS8?controls=0" frameborder="0"> </iframe>
+                    <iframe class="im" src="https://www.youtube.com/embed/b6munH99cdE?controls=0" frameborder="0"> </iframe>
                   </div>
                 </div>
 
@@ -106,7 +134,7 @@
                     <p>Implemented 3D mapping using Kinect and RGB-D Camera sensors on ground vehicle. A ground robot was added with the necessary sensors mentioned above and implemented mapping it with an indoor environment. Real time appearance-based mapping (RTAB-Map) was used to make the 3D map launched in gazebo environment. Then, BUG-2 algorithm was used to move the robot in the environment, reading the sensor data and ultimaately mapping. And also RViz was used to visualize the 2D ma, created using Rtab-map.</p>
                   </div>
                   <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                    <iframe class="im" src="https://www.youtube.com/embed/CnMpqUv7ask?controls=0" frameborder="0"> </iframe>
+                    <iframe class="im" src="https://www.youtube.com/embed/ajS3Aof0U_w?controls=0" frameborder="0"> </iframe>
                   </div>
                 </div>
 
@@ -152,7 +180,7 @@
                   </div>
 
                   <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                    <iframe class="im" src="https://www.youtube.com/embed/fPItqrno_Q4?controls=0" frameborder="0"> </iframe>
+                    <iframe class="im" src="https://www.youtube.com/embed/29nYj1Y_qi0?controls=0" frameborder="0"> </iframe>
                   </div>
                 </div>
 
@@ -165,60 +193,7 @@
                   </div>
 
                   <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                    <iframe class="im" src="https://www.youtube.com/embed/BvRMGzqvTik?controls=0" frameborder="0"> </iframe>
-                  </div>
-                </div>
-
-                <hr>
-
-                <div class="row about-container">
-                  <div class="col-lg-6 content order-lg-1 order-2 wow fadeInUp pt-5 pt-lg-0">
-                    <h2 class="bl">MINI ROBOTS</h2>
-                    <p>Intelligent Ground Vehicles, Can-Sats, Law Following Robot, Obstacle Racer, Autonomous Self Driving Robot, Robo-Soccer, Maze Runner, Sumo Robot, Drag Racer, BattleBots, RC Nitro Cars, Agricultural Robots, Water Rocket, etc were made in my journey of being the Co-Founder of the student funded team named ATOM Robotics.</p>
-                  </div>
-                  <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                    
-                    <div class="wrap">
-                      <div id="arrow-lefta" class="arrow"></div>
-                      <div id="slider">
-                        <div class="slidea">
-                          <div class="slide-content">
-                            <img src="img/lifo.jpg" class="sizee">
-                          </div>
-                        </div>
-                        <div class="slidea">
-                          <div class="slide-content">
-                            <img src="img/breach.jpeg" class="sizee">
-                          </div>
-                        </div>
-                        <div class="slidea">
-                          <div class="slide-content">
-                            <img src="img/bot.jpeg" class="sizee">
-                          </div>
-                        </div>
-                        <div class="slidea">
-                          <div class="slide-content">
-                            <img src="img/bot2.jpeg" class="sizee">
-                          </div>
-                        </div>
-                        <div class="slidea">
-                          <div class="slide-content">
-                            <img src="img/lifo2.jpeg" class="sizee">
-                          </div>
-                        </div>
-                        <div class="slidea">
-                          <div class="slide-content">
-                            <img src="img/robowar.jpeg" class="sizee">
-                          </div>
-                        </div>
-                        <div class="slidea">
-                          <div class="slide-content">
-                            <img src="img/drone.jpeg" class="sizee">
-                          </div>
-                        </div>
-                      </div>
-                      <div id="arrow-righta" class="arrow"></div>
-                    </div>
+                    <iframe class="im" src="https://www.youtube.com/embed/rE53EK_0H5U?controls=0" frameborder="0"> </iframe>
                   </div>
                 </div>
 
@@ -230,7 +205,7 @@
                     <p>Implementation of Gmapping using 2D lidar using turtle bot in ROS in Gazebo environment to construct a 2D map using RViz in an indoor environment. Also, an Adaptive Monte Carlo localization (AMCL) based navigation stack was used to move the ground robot to a navigation goal</p>
                   </div>
                   <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                    <iframe class="im" src="https://www.youtube.com/embed/ey4RYOT3EaY?controls=0" frameborder="0"></iframe>
+                    <iframe class="im" src="https://www.youtube.com/embed/FwAwKR-x7gw?controls=0" frameborder="0"></iframe>
                   </div>
                 </div>           
 
@@ -244,31 +219,21 @@
                   <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
                     
                     <div class="wrap">
-                      <div id="arrow-leftb" class="arrow"></div>
+                      <div id="arrow-lefta" class="arrow"></div>
                       <div id="slider">
-                        <div class="slideb">
+                        <div class="slidea">
                           <div class="slide-content">
                             <img src="img/albatross.JPG" class="sizee">
                           </div>
                         </div>
-                        <div class="slideb">
+                        <div class="slidea">
                           <div class="slide-content">
                             <img src="img/antbird.JPG" class="sizee">
                           </div>
                         </div>
-                        <div class="slideb">
-                          <div class="slide-content">
-                            <img src="img/cv_g1.png" class="sizee">
-                          </div>
-                        </div>
-                        <div class="slideb">
-                          <div class="slide-content">
-                            <img src="img/cv_g2.png" class="sizee">
-                          </div>
-                        </div>
 
                       </div>
-                      <div id="arrow-rightb" class="arrow"></div>
+                      <div id="arrow-righta" class="arrow"></div>
                     </div>
                   </div>
                 </div>
@@ -295,7 +260,7 @@
           <li><a href="https://www.linkedin.com/company/atomrobotics/?viewAsMember=true"><i class="fa fa-linkedin"></i>
                 <span>Linkedin</span>
           </a></li>
-          <li><a href="#"><i class="fa fa-youtube"></i>
+          <li><a href="https://www.youtube.com/channel/UCJqBjqcee6sjBas9806No-Q"><i class="fa fa-youtube"></i>
                <span>Youtube</span>
           </a></li>
           <li><a href="https://github.com/atomrobotics"><i class="fa fa-github"></i>
